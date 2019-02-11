@@ -1,0 +1,105 @@
+.input-text
+{
+    border-radius:25px;
+    width:250px;
+    background-color: lightgrey;
+    padding-left:5ch; 
+}
+.input-button
+{
+    background-color: lightgrey;
+    border-radius: 25px;
+    width: 80px;
+}
+
+
+.form-rounded{
+    border-radius: 1rem;
+    margin:3px;
+}
+.B1{
+    background-color: #E5E7EA;
+    height:50px;
+    color:black;
+}
+.A2{
+    background-color: #B0B4BA;
+    width: 160px;
+    margin-bottom: 10px;
+    height:40px;
+    justify-content: center;
+    padding: 6px;
+    color: white;
+}
+.D1{
+    height: 600px;
+    width: 450px;
+    background-color: #E5E7EA;
+}
+.img1{
+    height:150px;
+    width:150px;
+}
+.D2{
+    widows: 450px;
+}
+.D3{
+    margin:10px;
+}
+.B3{
+    background-color:#B0B4BA  ;
+    text-decoration-color:white;
+    border:0;
+    padding-left: 5px;
+}
+.b4{
+    background-color: #E5E7EA ;
+    text-decoration-color:white;
+    color:#B0B4BA;
+    border:0;
+    width:150px;
+}
+.T1{
+    margin-top:2px;
+   margin:0 auto;
+   border-collapse:collapse;
+   border-style:hidden;
+}
+.T1 td,th{
+    padding:1rem;
+    border:1px solid black;
+}
+#demo{
+    width: 400px;
+    height: 400px;
+    background-color: #B0B4BA;
+}
+#h{
+ position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#h h3,
+#h p{
+    display: inline;
+}
+#h1 h3,
+#h1 p{
+    display: inline;
+}
+.c1{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.c2{
+  margin: 10px;
+}
+.img2{
+  height:50px;
+  width:50px;
+  background-color:#E5E7EA;
+}
+.T1{
+  margin-top: 10px;
+}

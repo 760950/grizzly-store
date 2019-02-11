@@ -1,0 +1,165 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css"/>
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+	</head>
+	<body>
+			<nav class="navbar navbar-expand-sm " style="background-color:lightgrey">
+
+					<a class="navbar-brand" href="#" style="color:black;">GRIZZLY<img src="images/img2.JPG" style="width:50px;height:40px ; "></img>STORE</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsableNavbar">
+						<span class="navbar-toggler-icon">
+						</span>
+					</button>
+					<div id="collapsableNavbar" class="collapse navbar-collapse justify-content-end">
+                                   <p><a href="#">
+                                      <img src="images/img3.jpg" alt="img not found" width="50px;" height="40px"></span>
+                                    </a></p>&nbsp;&nbsp;&nbsp;
+                        <span><strong>Welcome, Admin Name.....</strong></span>&nbsp;&nbsp;&nbsp;
+                        <a href="index.html"><input type="submit" class="form-rounded" style="background-color:grey;color: white;border:0;" value="   Logout   "></a>
+               </nav><br><br>
+
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-1 col-md-4 col-lg-2 D2">
+                            <div class="container D1">
+                                   <h5 class="A2">PROFILE</h5>
+                                    <div style="margin:6px;" align="center">
+                                        <img class="img1" src="images/img.JPG" alt="Admin img">
+                                        <h4>HELEN CHO</h4>
+                                        <dl>
+                                            <dt><h5>ID</h5></dt>
+                                            <dd>GRZLY17234</dd>
+                                            <dt><h5>Designation</h5></dt>
+                                            <dd>Sr.Admin</dd>
+                                            <dt><h5>Office</h5></dt>
+                                            <dd>NYC, NY, USA</dd>
+                                        </dl>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-11 col-md-8 col-lg-10">
+                                <div class="container">
+                                    <div class="btn-group B1" style="width:105%" >
+                                        <a href="#" class="btn active btn-lg btn-outline-secondary" >PRODUCTS</a>
+                                        <a href="vend.html" class="btn btn-lg btn-outline-secondary">VENDORS</a>
+                                        <a href="catg.html" class="btn btn-lg btn-outline-secondary">CATEGORY</a>
+                                    </div>
+                                    <div class="form-inline D3">
+                                            <input type="text" class="form-rounded col-sm-3 ml-sm-2 mr-sm-2" name="fname" placeholder="  Search by Product Name/ ID   " style="background-color:#E5E7EA;border:0px;width:250px;">
+                                             <select class="form-rounded col-sm-3 ml-sm-2 mr-sm-2" style="background-color:lightgray;border:0px;" id="sel1">
+                                                 <option>Filter by Category</option>
+                                                 <option>2</option>
+                                                 <option>3</option>
+                                                 <option>4</option>
+                                            </select>
+                                            <select class="form-rounded col-sm-3 ml-sm-2 mr-sm-2" style="background-color:lightgray;border:0px;" id="sel2">
+                                                 	<option>Sort by</option>
+                                                 	<option>2</option>
+                                                	<option>3</option>
+                                              	  <option>4</option>
+                                            </select>
+                                          <a href="product1.html"> <input type="submit" class="form-rounded" style="background-color:gray;color: white;border:0;" value="   Add Product   "></a>
+                                    </div>
+                                    <div class="container">
+                                            <table class="table T1 ">
+                                                <tr >
+                                                    <th>Product List</th>
+                                                    <th>Brand</th>
+                                                    <th>Category</th>
+                                                    <th>Rating</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tr >
+                                                    <td>Moblies</td>
+                                                    <td>OnePlus</td>
+                                                    <td>Electronics</td>
+                                                    <td>4.5</td>
+                                                    <td>
+                                                        <div class="form-inline form-rounded">
+                                                          <a href="products.html"><input type="submit" class="form-rounded B3" value="    View    " ></a>
+                                                            <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                            <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Watch</td>
+                                                    <td>Apple</td>
+                                                    <td>Smart Watch</td>
+                                                    <td>4.0</td>
+                                                    <td>
+                                                            <div class="form-inline form-rounded">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="View">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ThinkVision</td>
+                                                    <td>Lenovo</td>
+                                                    <td>Laptops</td>
+                                                    <td>4.6</td>
+                                                    <td>
+                                                            <div class="form-inline form-rounded">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="View">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>iMac 27"</td>
+                                                    <td>Apple</td>
+                                                    <td>Laptops</td>
+                                                    <td>4.6</td>
+                                                    <td>
+                                                            <div class="form-inline form-rounded">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="View">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Smart TV</td>
+                                                    <td>Sony</td>
+                                                    <td>Home Applieces</td>
+                                                    <td>4.1</td>
+                                                    <td>
+                                                            <div class="form-inline form-rounded">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="View">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mi 10000Amp</td>
+                                                    <td>PowerBank</td>
+                                                    <td>Electronics</td>
+                                                    <td>4.2</td>
+                                                    <td>
+                                                            <div class="form-inline form-rounded">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="View">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Block">
+                                                                    <input type="button" class="form-rounded col-sm-3 B3" value="Remove">
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+	</body>
+</html>
